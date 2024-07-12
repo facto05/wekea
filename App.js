@@ -1,10 +1,11 @@
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView, StatusBar } from "react-native";
 import React from "react";
+import Routes from "./src/routes";
 
 export default function App() {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <Routes />
+    </SafeAreaView>
   );
 }
