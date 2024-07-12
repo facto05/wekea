@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { Platform, StatusBar, StyleSheet } from "react-native";
 export default GlobalStyles = StyleSheet.create({
   safeAreaStyles: {

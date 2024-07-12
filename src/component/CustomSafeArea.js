@@ -1,4 +1,5 @@
-import { View, Text, SafeAreaView } from "react-native";
+/* eslint-disable react/prop-types */
+import { SafeAreaView } from "react-native";
 import React from "react";
 import GlobalStyles from "../style/GlobalStyles";
 
